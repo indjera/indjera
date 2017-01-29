@@ -3,10 +3,15 @@
 }
 
 <div>
-    <h1>Nade obichash li me !</h1>
+    <h1 id="hText">Nade obichash li me !</h1>
     <h2>Ti si moeto slynchice </h2>
     <div>
       <img src="/images/download.jpg" alt="">
     </div>
-
+    <button onclick="yes" id="btnYes">Yes</button> 
 </div>
+<script>
+  function yes(){
+      document.getElementById("hText").innerText ="I az mnogo Te obicham!";
+  }
+</script>
